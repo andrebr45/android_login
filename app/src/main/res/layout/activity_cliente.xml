@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Olá"
+        android:textSize="25dp"
+        android:gravity="center"></TextView>
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="André Felipe"
+        android:textSize="17dp"
+        android:gravity="center"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Seus Dados"
+        android:textSize="25dp"
+        android:gravity="center"></TextView>
+    <TextView
+        android:id="@+id/email_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textSize="17dp"
+        android:gravity="center"></TextView>
+    <TextView
+        android:id="@+id/tel_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="telefone"
+        android:textSize="17dp"
+        android:gravity="center"></TextView>
+    <TextView
+        android:id="@+id/senha_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="senha"
+        android:textSize="17dp"
+        android:gravity="center"></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_logout"
+        android:text="Sair"
+        android:layout_marginTop="150dp"></Button>
+
+</LinearLayout>
